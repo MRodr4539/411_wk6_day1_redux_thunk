@@ -9,6 +9,7 @@ const Import = (props) => {
     return (
         <div>
       <p>Import Component</p>
+    <h2>COUNT: {props.makes.length}</h2>
         <Button variant='contained' color='primary' onClick={props.fetchMakes}>
            Import
         </Button>
