@@ -21,7 +21,7 @@ const Import = (props) => {
                 </TableRow>
             </TableHead>
             <TableBody>
-                {props.makes.map(row => (
+            {props.makes.map((row, index) => (
                     <TableRow key={row.name}>
                         <TableCell>{row['MakeId']}</TableCell>
                         <TableCell>{row['MakeName']}</TableCell>
